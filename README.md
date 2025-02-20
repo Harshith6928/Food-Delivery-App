@@ -73,3 +73,13 @@ The project is built using **React.js** for the frontend, **Node.js** with **Exp
 
 - npm start
 
+## OR
+
+## Start the Backend Server with nodemon 
+-By configuring the package.json
+![image](https://github.com/user-attachments/assets/d691012e-285d-42b6-bc2e-ad046bf5c4d9)
+
+- After configuring this use
+- npm run dev
+
+
