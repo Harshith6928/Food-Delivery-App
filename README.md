@@ -90,6 +90,8 @@ The project is built using **React.js** for the frontend, **Node.js** with **Exp
 
 ## Install Dependencies:
 
+- npx create-react-app app_name
+
 - npm install
 
 ## Start the Frontend Server:
