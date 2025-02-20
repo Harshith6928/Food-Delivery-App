@@ -111,6 +111,11 @@ DB_NAME=food_delivery_db
 DB_PORT=5432
 PORT=5001
 
+## Steps to Initialize the Database
+## Create the Database
+
+- CREATE DATABASE food_delivery_db;
+
 
 
 
