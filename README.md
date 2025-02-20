@@ -49,7 +49,7 @@ The project is built using **React.js** for the frontend, **Node.js** with **Exp
 ## Running the Project
 
 ### Backend
-1. **Navigate to the Backend Folder:**
+**Navigate to the Backend Folder:**
 
 - cd backend
 
@@ -71,7 +71,7 @@ The project is built using **React.js** for the frontend, **Node.js** with **Exp
 
 ## Start the Backend Server:
 
-- npm start
+- node server or node server.js
 
 ## OR
 
@@ -81,5 +81,37 @@ The project is built using **React.js** for the frontend, **Node.js** with **Exp
 
 - After configuring this use
 - npm run dev
+
+### Frontend
+
+## Navigate to the Frontend Folder:
+
+- cd frontend
+
+## Install Dependencies:
+
+- npm install
+
+## Start the Frontend Server:
+
+- npm start
+
+## Mock Database Setup (PostgreSQL)
+
+This project uses a **real PostgreSQL database** to store all persistent data, including restaurants, menu items, admin credentials, cart, and orders. Below are the connection details and steps to initialize the database.
+
+### Connection Details
+The connection to PostgreSQL is configured via a `.env` file in the backend directory. Example variables include:
+
+```env
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_NAME=food_delivery_db
+DB_PORT=5432
+PORT=5001
+
+
+
 
 
