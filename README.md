@@ -44,7 +44,7 @@ The project is built using **React.js** for the frontend, **Node.js** with **Exp
 ## Middleware to enable CORS, Allows cross-origin requests between your frontend and backend.
 - npm cors
 ## Enables loading environment variables from a .env file (such as database credentials and port settings).
--npm dotenv
+- npm dotenv
 
 ## Running the Project
 
@@ -96,14 +96,14 @@ The project is built using **React.js** for the frontend, **Node.js** with **Exp
 
 - npm start
 
-## Mock Database Setup (PostgreSQL)
+## Mock Database Setup PostgreSQL
 
 This project uses a **real PostgreSQL database** to store all persistent data, including restaurants, menu items, admin credentials, cart, and orders. Below are the connection details and steps to initialize the database.
 
 ### Connection Details
 The connection to PostgreSQL is configured via a `.env` file in the backend directory. Example variables include:
 
-```env
+...env
 DB_USER=your_username
 DB_PASSWORD=your_password
 DB_HOST=localhost
@@ -116,31 +116,31 @@ PORT=5001
 
 - CREATE DATABASE food_delivery_db;
 
-- Restaurants Table:
+## Restaurants Table:
 
 ![image](https://github.com/user-attachments/assets/ad5f7924-4eff-4ef3-bc0f-1958f1178adf)
 
-- Sample data to insert items into menu table
+## Sample data to insert items into menu table
 
 ![image](https://github.com/user-attachments/assets/70ee3a76-7459-4205-8e8b-33ec7d4f9ff6)
 
-- Menu Items Table:
+## Menu Items Table:
 
 ![image](https://github.com/user-attachments/assets/c024a8bf-e943-4e53-940f-c42b08c9a1fc)
 
-- Sample data to insert items into menu table
+## Sample data to insert items into menu table
 
 ![image](https://github.com/user-attachments/assets/449e647a-39b1-4b1a-b1d0-036341771936)
 
-- Cart Table:
+## Cart Table:
 
 ![image](https://github.com/user-attachments/assets/542a4c1c-e202-4e91-b620-8544beea1a58)
 
-- User Table:
+## User Table:
 
 ![image](https://github.com/user-attachments/assets/0896e9f0-e14d-41e4-b34f-2abe474c0a8b)
 
-- Restaurant Login:
+## Restaurant Login:
 
 ![image](https://github.com/user-attachments/assets/208996da-370d-496b-b0d3-3389f2b79885)
 
@@ -149,8 +149,8 @@ This Food Delivery App project successfully demonstrates a complete full-stack a
 
 Key achievements include:
 
-*  The project shows effective communication between the frontend and backend through well-designed RESTful APIs.
+- The project shows effective communication between the frontend and backend through well-designed RESTful APIs.
 
-*  PostgreSQL has been used to manage restaurants, menu items, admin users, carts, and orders, with clear relationships and    constraints.
+- PostgreSQL has been used to manage restaurants, menu items, admin users, carts, and orders, with clear relationships and    constraints.
 
-*  The React-based UI is responsive and provides a smooth experience for users and admins alike.
+- The React-based UI is responsive and provides a smooth experience for users and admins alike.
