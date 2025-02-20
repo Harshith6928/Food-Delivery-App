@@ -116,7 +116,41 @@ PORT=5001
 
 - CREATE DATABASE food_delivery_db;
 
+- Restaurants Table:
 
+![image](https://github.com/user-attachments/assets/ad5f7924-4eff-4ef3-bc0f-1958f1178adf)
 
+- Sample data to insert items into menu table
 
+![image](https://github.com/user-attachments/assets/70ee3a76-7459-4205-8e8b-33ec7d4f9ff6)
 
+- Menu Items Table:
+
+![image](https://github.com/user-attachments/assets/c024a8bf-e943-4e53-940f-c42b08c9a1fc)
+
+- Sample data to insert items into menu table
+
+![image](https://github.com/user-attachments/assets/449e647a-39b1-4b1a-b1d0-036341771936)
+
+- Cart Table:
+
+![image](https://github.com/user-attachments/assets/542a4c1c-e202-4e91-b620-8544beea1a58)
+
+- User Table:
+
+![image](https://github.com/user-attachments/assets/0896e9f0-e14d-41e4-b34f-2abe474c0a8b)
+
+- Restaurant Login:
+
+![image](https://github.com/user-attachments/assets/208996da-370d-496b-b0d3-3389f2b79885)
+
+## Conclusion
+This Food Delivery App project successfully demonstrates a complete full-stack application built with React.js on the frontend, Node.js and Express.js on the backend, and PostgreSQL for persistent data storage. The project fulfills the core requirements by enabling users to browse restaurants, view detailed menus, manage their carts, and place orders. In addition, the admin panel allows restaurant owners to securely log in and manage their menu items.
+
+Key achievements include:
+
+*  The project shows effective communication between the frontend and backend through well-designed RESTful APIs.
+
+*  PostgreSQL has been used to manage restaurants, menu items, admin users, carts, and orders, with clear relationships and    constraints.
+
+*  The React-based UI is responsive and provides a smooth experience for users and admins alike.
