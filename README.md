@@ -22,11 +22,54 @@ The project is built using **React.js** for the frontend, **Node.js** with **Exp
 ## Installation Steps
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (v14+ recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-- [PostgreSQL](https://www.postgresql.org/) (ensure it is installed and running)
+- Ensure you have [Node.js](https://nodejs.org/) installed (which includes npm).
+- Verify the installations by running in your terminal:
+  ```bash
+  node -v
+  npm -v
 
-### Clone the Repository
-```bash
-git clone https://github.com/yourusername/food-delivery-app.git
-cd food-delivery-app
+## Navigate to the food-delivery-app folder
+- cd food-delivery-app
+## Navigate to the backend folder and install dependencies using npm
+- cd backend
+- npm install
+## Automatically restarts the server during development
+- npm nodemon
+## Automatically restarts your Node.js server when file changes are detected, which is useful during development.
+- npm nodemon
+## Web framework for Node.js, Middleware to enable CORS
+- npm express
+## PostgreSQL client for Node.js, A PostgreSQL client that lets your application communicate with the PostgreSQL database.
+- npm pg
+## Middleware to enable CORS, Allows cross-origin requests between your frontend and backend.
+- npm cors
+## Enables loading environment variables from a .env file (such as database credentials and port settings).
+-npm dotenv
+
+## Running the Project
+
+### Backend
+1. **Navigate to the Backend Folder:**
+
+- cd backend
+
+## Configuration structure of backend
+
+![image](https://github.com/user-attachments/assets/b979fd69-ce7e-4aa1-be0f-c3ed7272dc7a)
+
+### Configure Environment Variables
+- DB_USER=your_db_username
+- DB_PASSWORD=your_db_password
+- DB_HOST=localhost
+- DB_NAME=food_delivery_db
+- DB_PORT=5432
+- PORT=5001
+
+## Configuration of db.js
+
+![image](https://github.com/user-attachments/assets/2fd9a11a-97df-4eb9-ab7c-99e8f088cd4d)
+
+## Start the Backend Server:
+
+- npm start
+
