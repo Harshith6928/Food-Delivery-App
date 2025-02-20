@@ -1,0 +1,123 @@
+/* Main Restaurant Name Section */
+.restaurant_name_main {
+    width: 100%;
+    /* border: 2px solid #000;  */
+    height: 250px;
+    background-color: rgb(224, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.restaurant_name_main > .restaurant_name {
+    width: 70%;
+    color: #000; 
+    /* border: 2px solid; */
+}
+
+.restaurant_name_main > .restaurant_name > h1 > span{
+    color: #ffae00;
+}
+
+.restaurant_name_main > .restaurant_name > h4{
+    font-size: 30px;
+}
+
+/* Restaurant Menu Section */
+.restaurant_menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(224, 254, 255);
+}
+
+/* Subsection for Menu Cards */
+.restaurant_menu > .restaurant_menu_sub {
+    width: 80%;
+    /* border: 2px solid #00BCD4; */
+    padding: 30px;
+    display: grid;
+    gap: 3%;
+    grid-template-columns: 32% 32% 32%;
+}
+
+/* Individual Menu Cards */
+.restaurant_menu > .restaurant_menu_sub > .restaurant_menu_card {
+    padding: 15px;
+    /* border: 2px solid #00BCD4;  */
+    background-color: azure;
+    border-radius: 30px;
+    transform: scale(1, 1);
+}
+
+/* Hover Effect for Menu Cards */
+.restaurant_menu > .restaurant_menu_sub > .restaurant_menu_card:hover {
+    box-shadow: 0px 0px 10px grey;
+    transition-duration: 0.2s;
+    background-color: rgb(224, 254, 255);
+}
+
+/* Image in Menu Cards */
+.restaurant_menu > .restaurant_menu_sub > .restaurant_menu_card > .image {
+    /* border: 2px solid #00BCD4; */
+    /* width: 200px; */
+    height: 200px;
+    background: url("../../public/Assets/restaurants/restaurants_bg2.jpg") center/cover no-repeat;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.restaurant_menu > .restaurant_menu_sub > .restaurant_menu_card > .item_name{
+    height: 65px;
+}
+
+.restaurant_menu > .restaurant_menu_sub > .restaurant_menu_card > .item_name> h1 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000; /* Sky Blue */
+
+}
+
+/* Restaurant Description */
+.restaurant_menu > .restaurant_menu_sub > .restaurant_menu_card > p {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #333333; /* Charcoal Black */
+}
+
+/* Button Section in Cards */
+.restaurant_menu > .restaurant_menu_sub > .restaurant_menu_card > .restaurant_menu_card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Order Button */
+.restaurant_menu > .restaurant_menu_sub > .restaurant_menu_card > .restaurant_menu_card > button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffbf36; /* Sky Blue */
+    border-radius: 20px;
+    color: #F8FAFC; /* Soft White */
+    transform: scale(1, 1);
+}
+
+/* Order Button Hover Effect */
+.restaurant_menu > .restaurant_menu_sub > .restaurant_menu_card > .restaurant_menu_card > button:hover {
+    background-color: #ffae00; /* Bright Cyan */
+    transform: scale(1.05, 1.05);
+    transition-duration: 0.2s;
+}
+
+.restaurant_menu > .restaurant_menu_sub > .restaurant_menu_card > .restaurant_menu_card > button:active {
+    background-color: #ff7b00;
+    transition-duration: 0.1s;
+}

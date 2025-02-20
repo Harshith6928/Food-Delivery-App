@@ -1,0 +1,158 @@
+.restaurants_bg{
+    width: 100%;
+    height: 350px;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../public/Assets/restaurants/restaurants_bg3.jpg") center/cover no-repeat;
+}
+.restaurants_bg>.restaurant_bg_sub{
+    width: 50%;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.restaurants_bg>.restaurant_bg_sub>h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: azure;
+}
+.restaurants_bg>.restaurant_bg_sub>h1>span{
+    color: #ffae00;
+}
+.restaurants_bg>.restaurant_bg_sub>.restaurants_search{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* border: 2px solid; */
+    margin-top: 30px;
+}
+.restaurants_bg>.restaurant_bg_sub>.restaurants_search>input{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0px 0px 10px ;
+    border-radius: 27px;
+    font-size: 17px;
+}
+.restaurants_bg>.restaurant_bg_sub>.restaurants_search>.search_icon{
+    position: absolute;
+    top: 0.5px;
+    right: 0;
+    font-size: 39px;
+    background-color: #ffae00;
+    color: azure;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.restaurants_bg>.restaurant_bg_sub>.restaurants_search>.clear_icon{
+    position: absolute;
+    right: 45px;
+    font-weight: 800;
+    font-size: 17px;
+    /* cursor: pointer; */
+    color: #000000;
+}
+.restaurants_bg>.restaurant_bg_sub>.restaurants_search>.clear_icon:hover{
+    background-color: #9a9a9a;
+    font-size: 17px;
+    /* padding: 4px; */
+    color: azure;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+.restaurants_main_list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 254, 255);
+}
+.restaurants_main_list>.restaurants_list{
+    width: 90%;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    padding: 20px 20px;
+    gap: 3%;
+}
+.restaurants_main_list>.restaurants_list>.no_restaurants{
+    height: 200px;
+}
+.restaurants_main_list>.restaurants_list>.card{
+    text-decoration: none;
+    color: black;
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card{
+    /* border: 2px solid;   */
+    padding: 10px; 
+    border-radius: 20px;
+    background-color: azure;
+    cursor: pointer;
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card:hover{
+    box-shadow: 0px 0px 15px #808080;
+    transition-duration: 0.1s;
+    background-color: rgb(224, 254, 255);
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_img{
+    width: 100%;
+    /* border: 2px solid; */
+    height: 220px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_img>img{
+    width: 100%;
+    height: 100%;
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_details{
+    width: 100%;
+    margin-top: 10px;
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_details>.one, 
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_details>.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+    /* border: 2px solid; */
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_details>.one>h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_details>.one>span{
+    padding: 2px 5px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_details>.two>:nth-child(1){
+    font-size: 15px;
+    color: #484848;
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_details>.two>:nth-child(2){
+    color: #484848;
+    /* border: 2px solid; */
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_details>.two>:nth-child(2),
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_details>.one>span{
+    display: flex;
+    align-items: center;
+}
+.restaurants_main_list>.restaurants_list>.card>.restaurants_card>.restaurants_details>.one>span>.star_icon{
+    font-size: 12px;
+}

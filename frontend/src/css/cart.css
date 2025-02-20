@@ -1,0 +1,119 @@
+.cart_main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    /* border: 2px solid; */
+    background-color: rgb(224, 254, 255);
+}
+.cart_main>.cart{
+    width: 60%;
+    /* border: 2px solid; */
+    margin-top: 30px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+    background-color: azure;
+}
+.cart_main>.empty{
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart_main>.empty>h1{
+    color: green;
+}
+.cart_main>.cart>.cart_item{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;
+    background-color: rgb(224, 254, 255);
+    position: relative;
+}
+.cart_main>.cart>.cart_item>.cart_item_name{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid; */
+}
+.cart_main>.cart>.cart_item>.cart_item_name>.cart_item_image{
+    width: 38%;
+    /* border: 2px solid; */
+    height: 120px;
+    border-radius: 20px;
+    background: url("../../public/Assets/restaurants/restaurants_bg2.jpg") center/cover no-repeat;
+}
+.cart_main>.cart>.cart_item>.cart_item_name>p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.cart_main>.cart>.cart_item>.cart_quantity_controls{
+    width: 12%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cart_main>.cart>.cart_item>.cart_quantity_controls>.calculation{
+    padding: 3px 7px;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 600;
+    transform: scale(1);
+}
+.cart_main>.cart>.cart_item>.cart_quantity_controls>.calculation:hover{
+    transform: scale(1.3);
+    transition-duration: 0.1s;
+    color: green;
+}
+.cart_main>.cart>.cart_item>.price>p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.cart_main>.cart>.cart_item>p>span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.cart_main>.cart>.cart_item>.remove_btn{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cart_main>.checkout>.checkout_btn{
+    padding: 10px 20px;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    color: azure;
+    background-color: #ffae00;
+    border: none;
+    border-radius: 20px;
+}
+.cart_main>.checkout>.checkout_btn:hover{
+    box-shadow: 0px 0px 10px rgb(166, 166, 166);
+    transition-duration: 0.1s;
+}
+.cart_main>p{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}

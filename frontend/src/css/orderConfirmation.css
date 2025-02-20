@@ -1,0 +1,71 @@
+.confirmation_main {
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(224, 254, 255);
+}
+
+h1 {
+  color: green;
+}
+
+.order_details {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.buttons{
+  margin-top: 20px;
+  width: 25%;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.buttons>.back-home-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transform: scale(1);
+  font-weight: 700;
+}
+.buttons>.back-home-btn:hover {
+  transform: scale(1.05);
+  transition-duration: 0.1s;
+}
+
+.buttons>.back-home-btn:active{
+  background: rgb(0, 83, 0);
+}
+
+.buttons>.track_your_order {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #ffbf36;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transform: scale(1);
+  font-weight: 700;
+}
+.buttons>.track_your_order:hover {
+  transition-duration: 0.1s;
+  transform: scale(1.05);
+}
+.buttons>.track_your_order:active{
+  background: hsl(32, 100%, 60%);
+}
